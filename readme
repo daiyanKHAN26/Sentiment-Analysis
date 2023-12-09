@@ -1,0 +1,16 @@
+Sentiment Analysis (SA) is the process of using text analysis methods, natural language
+processing (NLP) and computational linguistics to be able to extract, identify, and quantify the
+sentiment and connotation of any given text accordingly – that is, to be able to determine
+whether a string of words are conveying a positive or negative emotion, based on the context.
+The applications of SA include detecting the feeling of a text, testing interest in text, or even to
+test text polarity (whether a text is positive or not).
+
+For this project, we have categorized possible sentiment values inferred from texts into 5
+categories: joy, anger, fear, sadness, neutral. With the help of a pre-trained data set, we have
+trained 2 different Machine Learning (ML) models to be able to predict the sentiment from input
+text – a Convolutional Neural Network (CNN) model using Keras Sequential API, and a
+Recurrent Neural Network (RNN) model using Long short-term memory (LSTM) network. A
+model was also implemented using both the CNN and LSTM layers. An SVM, and Simple
+Naïve-Bayes (NB) model were implemented for comparison purposes. Below is a diagram
+summarizing the workflow of our proposed method. The purpose of our project is to compare the
+effectiveness of Sentiment Analysis using CNN (Keras) vs RNN (LSTM).
